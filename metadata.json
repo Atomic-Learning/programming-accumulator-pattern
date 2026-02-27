@@ -1,0 +1,24 @@
+{
+    "title": "Programming: Accumulator Pattern",
+    "slug": "programming-accumulator-pattern",
+    "description": "Introduces the accumulator pattern for running totals and repeated aggregation in loops.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "programming",
+        "pseudocode"
+    ],
+    "duration": 4,
+    "prerequisites": [
+        "programming-patterns-introduction",
+        "programming-for-loops-introduction",
+        "programming-arithmetic-operators",
+        "programming-variables"
+    ],
+    "related": [
+        "python-range-in-for-loops",
+        "exercise-python-sum-of-squares-range",
+        "programming-lists-arrays"
+    ]
+}

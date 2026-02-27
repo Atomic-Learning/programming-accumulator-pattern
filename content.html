@@ -1,0 +1,31 @@
+<h2>What Is an Accumulator?</h2>
+
+<p>An accumulator is a variable that stores an ongoing result while a loop runs.</p>
+<p>Each iteration updates the accumulator using the current item, so the result builds up step by step.</p>
+
+<h2>General Pattern</h2>
+
+<pre><code>result = initial_value
+FOR each item IN iterable:
+    result = update(result, item)
+OUTPUT result</code></pre>
+
+<h2>Choosing the Initial Value</h2>
+
+Depending on the operation you're performing, the initial value of the accumulator will differ. Here are some common choices:
+<ul>
+  <li>Use <code>0</code> when accumulating a sum.</li>
+  <li>Use <code>1</code> when accumulating a product.</li>
+  <li>Use an empty string when building text.</li>
+  <li>Use an empty list when building a list.</li>
+</ul>
+
+<h2>Example in Pseudocode</h2>
+
+<p>To sum a list of numbers:</p>
+
+<pre><code>total = 0
+FOR each number IN numbers:
+    total = total + number</code></pre>
+
+<p>The accumulator <code>total</code> starts at 0 and is increased by each number in the list as that number is processed in the for loop.</p>

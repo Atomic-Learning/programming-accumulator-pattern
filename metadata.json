@@ -12,7 +12,7 @@
     "duration": 4,
     "prerequisites": [
         "programming-patterns-introduction",
-        "programming-for-loops-introduction",
+        "programming-for-loops",
         "programming-arithmetic-operators",
         "programming-variables"
     ],
